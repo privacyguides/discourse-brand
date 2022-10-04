@@ -1,0 +1,90 @@
+@font-face {
+  src: url($Bagnard);
+  font-family: 'Bagnard';
+}
+
+@font-face {
+  src: url($PublicSans-Regular) format('woff2');
+  font-family: 'Public Sans';
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  src: url($PublicSans-Bold) format('woff2');
+  font-family: 'Public Sans';
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  src: url($PublicSans-Italic) format('woff2');
+  font-family: 'Public Sans';
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  src: url($PublicSans-BoldItalic) format('woff2');
+  font-family: 'Public Sans';
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  src: url($PublicSans-Light) format('woff2');
+  font-family: 'Public Sans';
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+    --font-family: 'Public Sans',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif
+}
+
+#site-text-logo, div[class^="category-title-header"] .category-title-contents .category-title, .custom-footer .first-box .heading {
+    font-family: 'Bagnard', serif;
+}
+
+.d-header {
+    box-shadow: none;
+    border-bottom: 1px solid var(--primary-low);
+}
+
+.custom-header-links .headerLink {
+    font-size: .85rem;
+    opacity: 0.6;
+    padding: 6px 10px;
+}
+
+.custom-header-links .headerLink a {
+    padding: 0;
+}
+
+body:not(.category-announcements-blog) .forum-custom-header-links > a {
+    background:
+        radial-gradient(farthest-side, #FFD06F 98%,transparent 100%) bottom right/2px 2px,
+        radial-gradient(farthest-side, #FFD06F 98%,transparent 100%) bottom left /2px 2px,
+        linear-gradient(#FFD06F,#FFD06F) bottom/calc(100% - 2px) 2px;
+    background-repeat:no-repeat;
+    background-origin: padding-box;
+    padding-bottom: 2px;
+}
+
+.category-announcements-blog .blog-custom-header-links > a {
+    background:
+        radial-gradient(farthest-side, #FFD06F 98%,transparent 100%) bottom right/2px 2px,
+        radial-gradient(farthest-side, #FFD06F 98%,transparent 100%) bottom left /2px 2px,
+        linear-gradient(#FFD06F,#FFD06F) bottom/calc(100% - 2px) 2px;
+    background-repeat:no-repeat;
+    background-origin: padding-box;
+    padding-bottom: 2px;
+}
+
+.sidebar-wrapper, .sidebar-footer-wrapper .sidebar-footer-container:before, .sidebar-footer-wrapper .sidebar-footer-container {
+    background: inherit;
+}
+
+.category-team .topic-post.group-team {
+    border-top: none;
+}

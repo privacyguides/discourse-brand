@@ -1,0 +1,39 @@
+{
+  "name": "Privacy Guides Theme",
+  "license_url": "https://github.com/privacyguides/discourse-brand/blob/main/LICENSE.txt",
+  "about_url": "https://github.com/privacyguides/brand",
+  "assets": {
+    "Bagnard": "assets/Bagnard/Bagnard.woff",
+    "PublicSans-Bold": "assets/PublicSans/PublicSans-Bold.woff2",
+    "PublicSans-BoldItalic": "assets/PublicSans/PublicSans-BoldItalic.woff2",
+    "PublicSans-Italic": "assets/PublicSans/PublicSans-Italic.woff2",
+    "PublicSans-Light": "assets/PublicSans/PublicSans-Light.woff2",
+    "PublicSans-Regular": "assets/PublicSans/PublicSans-Regular.woff2"
+  },
+  "color_schemes": {
+    "Privacy Guides Light": {
+      "primary": "222222",
+      "secondary": "f7f7fc",
+      "tertiary": "3C00E0",
+      "quaternary": "3C00E0",
+      "header_background": "FCFCFC",
+      "header_primary": "2d2d2d",
+      "highlight": "ffff7d",
+      "danger": "c0322f",
+      "success": "72cd75",
+      "love": "fa6c8d"
+    },
+    "Privacy Guides Dark": {
+      "primary": "dddddd",
+      "secondary": "1A1A1B",
+      "tertiary": "ffd06f",
+      "quaternary": "af94de",
+      "header_background": "0D0D0D",
+      "header_primary": "dddddd",
+      "highlight": "8098c6",
+      "danger": "ff6c6a",
+      "success": "72cd75",
+      "love": "fa6c8d"
+    }
+  }
+}

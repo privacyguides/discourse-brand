@@ -1,0 +1,9 @@
+.login-modal #login-buttons:not(.hidden), .create-account #login-buttons:not(.hidden) {
+    min-width: 230px;
+}
+.modal-inner-container {
+    --modal-max-width: 48em;
+}
+.post-menu-area {
+    margin: 0;
+}
