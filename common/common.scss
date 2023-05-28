@@ -89,6 +89,13 @@ body:not(.category-announcements-blog) .forum-custom-header-links > a {
     border-top: none;
 }
 
+.create-account .user-fields {
+  display: none;
+}
+.second-factor-item > .actions > button.btn-danger.btn-flat.no-text.btn.no-text.btn-icon {
+  display: none;
+}
+
 // From discourse-easy-footer component:
 
 .custom-footer {

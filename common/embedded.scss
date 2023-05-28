@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: dark) {
+  html {
+      background-color: rgb(26, 26, 27);
+      color: rgb(233, 235, 252);
+  }
+  a, a:visited, .in-reply-to {
+      color: rgb(255, 208, 111);
+  }
+  .username a {
+      color: var(--primary-low);
+  }
+  article.post {
+      border-bottom: 1px solid hsla(232,72%,90%,0.12);
+  }
+  header.discourse {
+      border-bottom: 3px solid hsla(232,72%,90%,0.12);
+  }
+  footer .button {
+      background-color: rgb(255, 208, 111);
+      color: #070707;
+  }
+}
