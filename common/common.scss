@@ -192,6 +192,17 @@ body:not(.category-announcements-blog) .forum-custom-header-links > a {
   }
 }
 
+body.crawler {
+  .custom-footer {
+    .footer-section-link-wrapper a {
+      color: var(--secondary-high)!important;
+    }
+    .small-link {
+      color: var(--secondary-high)!important;
+    }
+  }
+}
+
 #main-outlet {
   // stick footer to bottom of short pages
   min-height: 85vh;
