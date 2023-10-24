@@ -11,3 +11,10 @@
     box-shadow: none;
     margin: 0;
 }
+.top-contributors--user {
+    white-space: nowrap;
+    .top-contributors--user-badge {
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
