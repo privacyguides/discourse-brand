@@ -268,3 +268,8 @@ body.crawler {
 .static-login .custom-footer {
   margin-top: 3em;
 }
+
+// Reduce header title size
+.extra-info-wrapper .header-title {
+  font-size: var(--font-up-1);
+}
