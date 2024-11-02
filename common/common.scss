@@ -273,3 +273,7 @@ body.crawler {
 .extra-info-wrapper .header-title {
   font-size: var(--font-up-1);
 }
+
+a.active.sidebar-section-link.sidebar-row {
+  background: none;
+}
