@@ -284,8 +284,22 @@ html.anon {
     .actions {
       margin-left: 0;
     }
-    .discourse-reactions-actions .discourse-reactions-list {
-      display: none;
+    .discourse-reactions-actions {
+      .discourse-reactions-list {
+        display: none;
+      }
+      .discourse-reactions-reaction-button {
+        display: none;
+      }
+    }
+    .discourse-reactions-counter {
+      .reactions-counter {
+        font-size: inherit;
+      }
+      .reactions-counter::after {
+        margin-left: 0.5ch;
+        content: "Reactions";
+      }
     }
   }
 }
