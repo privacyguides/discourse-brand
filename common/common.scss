@@ -277,3 +277,85 @@ body.crawler {
 a.active.sidebar-section-link.sidebar-row {
   background: none;
 }
+
+html.anon {
+  nav.post-controls {
+    justify-content: right;
+    .actions {
+      margin-left: 0;
+    }
+    .discourse-reactions-actions .discourse-reactions-list {
+      display: none;
+    }
+  }
+}
+
+body.option-disable-reactions-all {
+  .discourse-reactions-counter {
+    display: none;
+  }
+}
+
+body.option-disable-reactions-negative {
+  .discourse-reactions-state-panel {
+    display: none;
+  }
+  .discourse-reactions-picker-container {
+    button.rofl {
+      display: none;
+    }
+    button.\-1 {
+      display: none;
+    }
+    button.eyes {
+      display: none;
+    }
+    button.confused {
+      display: none;
+    }
+    button.open-mouth {
+      display: none;
+    }
+    button.disguised_face {
+      display: none;
+    }
+    button.grimacing {
+      display: none;
+    }
+    button.popcorn {
+      display: none;
+    }
+    button.no_mouth {
+      display: none;
+    }
+  }
+  .reactions {
+    [id*='discourse-reactions-list-emoji'][id$="-rofl"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-1"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-eyes"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-confused"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-open-mouth"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-disguised_face"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-grimacing"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-popcorn"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-no_mouth"] {
+      display: none;
+    }
+  }
+}
