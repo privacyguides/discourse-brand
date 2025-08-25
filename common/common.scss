@@ -325,7 +325,7 @@ body.option-disable-reactions-negative {
     button.confused {
       display: none;
     }
-    button.open-mouth {
+    button.open_mouth {
       display: none;
     }
     button.disguised_face {
@@ -338,6 +338,15 @@ body.option-disable-reactions-negative {
       display: none;
     }
     button.no_mouth {
+      display: none;
+    }
+    button.thinking {
+      display: none;
+    }
+    button.robot {
+      display: none;
+    }
+    button.cry {
       display: none;
     }
   }
@@ -354,7 +363,7 @@ body.option-disable-reactions-negative {
     [id*='discourse-reactions-list-emoji'][id$="-confused"] {
       display: none;
     }
-    [id*='discourse-reactions-list-emoji'][id$="-open-mouth"] {
+    [id*='discourse-reactions-list-emoji'][id$="-open_mouth"] {
       display: none;
     }
     [id*='discourse-reactions-list-emoji'][id$="-disguised_face"] {
@@ -367,6 +376,15 @@ body.option-disable-reactions-negative {
       display: none;
     }
     [id*='discourse-reactions-list-emoji'][id$="-no_mouth"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-thinking"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-robot"] {
+      display: none;
+    }
+    [id*='discourse-reactions-list-emoji'][id$="-cry"] {
       display: none;
     }
   }
