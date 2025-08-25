@@ -290,6 +290,18 @@ html.anon {
   }
 }
 
+form#login-form {
+  .create-account__fullname {
+    display: none;
+  }
+  .user-field-pronouns {
+    display: none;
+  }
+  .user-field-optional-features {
+    display: none;
+  }
+}
+
 body.option-disable-reactions-all {
   .discourse-reactions-counter {
     display: none;
